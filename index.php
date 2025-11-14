@@ -1,7 +1,9 @@
 <HTML>
 <HEAD><TITLE>Hello PHP</TITLE></HEAD>
 <BODY>
-<?php echo '<p>Hello world NEWWWWWWWW</p>'; ?>
+<?php
+$saludo = getenv('SALUDO');
+echo '<p>Hello $saludo</p>'; ?>
 </BODY>
 
 </HTML>
